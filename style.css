@@ -36,3 +36,45 @@ button{
     cursor: pointer;
 }
 /* hero banner start */
+header{
+    height: 90vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    gap: 30px;
+    padding: 20px 0;
+}
+.header-content h1{
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.header-content p{
+    font-size: 20px;
+    color: #bbbbbb;
+    margin-top: -10px;
+}
+.header-content button{
+    padding: 14px 45px;
+    background: rgb(41, 41, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 250px
+}
