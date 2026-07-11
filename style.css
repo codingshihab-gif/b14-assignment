@@ -10,14 +10,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    /* background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
-}
+     background-color: #fff;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+} 
 .logo img{
     width: 100px;
     height: auto;
 }
-ul{
+.nav-item{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -76,7 +76,7 @@ header{
     border-radius: 8px;
     font-weight: bold;
     text-align: center;
-    margin-top: 250px
+    margin-top: 180px
 }
 /* speakers */
 .speakers{
@@ -96,7 +96,7 @@ header{
     border: 1px solid rgb(235, 235, 235);
     border-radius: 10px;
     text-align: left;
-    /* overflow: hidden; */
+    
 }
 .speaker-img{
     width: 100%;
@@ -124,3 +124,103 @@ header{
     color:rgb(104, 104, 104)
 }
 /* pricing */
+.pricing{
+    
+    padding: 100px;
+}
+    
+.pricing h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 10%;
+
+}
+.pricing-offer{
+    color: #636262;
+    margin-bottom: 50px;
+    text-align: center;
+ 
+
+}
+.pricing-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.pricing-card{
+    width: 280px;
+    max-width: 320px;
+    padding: 40px;
+    height: 330px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    background: rgb(247, 247, 247);
+    
+    
+    
+
+}
+.pricing-card.black{
+    background: rgb(20, 17, 17);
+    color: #ffffff;
+}
+.plan-name{
+    color: #9b9999;
+    font-size: 15px;
+    font-weight: bold;
+}
+.plan-name.black{
+    color: rgb(107, 107, 240);
+}
+ul li::marker{
+    color: rgb(102, 102, 253);
+}
+.pricing-card ul li{
+    padding: 5px 0;
+}
+.price{
+    
+    font-size: 40px;
+    margin: 10px 0 0
+}
+.per-person{
+    color: #a7a7a7;
+    margin-bottom: 20px;
+
+}
+.outline-btn{
+    padding: 10px;
+    width: 100%;
+    background: white;
+    color: blue;
+    border-radius: 8px;
+    border: 1px solid blue;
+    font-weight: bold;
+    margin-top: 25px;
+    
+}
+.common-btn{
+    padding: 10px;
+    width: 100%;
+    background: rgb(59, 59, 228);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    margin-top: 25px;
+}
+hr{
+    border: 0;
+    border-top: 1px solid rgb(219, 219, 219);
+    padding: 5px ;
+    margin-top: 10px;
+}
+.pricing-card.black hr{
+  
+    border: 0;
+    border-top: 1px solid rgb(82, 82, 82);
+    padding: 5px ;
+    margin-top: 10px;
+}
