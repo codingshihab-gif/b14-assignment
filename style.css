@@ -85,7 +85,7 @@ header{
 }
 .speakers h2{
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .speaker-grid{
     display: grid;
@@ -141,7 +141,6 @@ header{
     margin-bottom: 50px;
     text-align: center;
  
-
 }
 .pricing-grid{
     display: flex;
@@ -158,13 +157,15 @@ header{
     border-radius: 10px;
     background: rgb(247, 247, 247);
     
-    
-    
-
 }
+
 .pricing-card.black{
     background: rgb(20, 17, 17);
     color: #ffffff;
+}
+.pricing-card.black ul li{
+    color: #c7c7c7;
+
 }
 .plan-name{
     color: #9b9999;
@@ -178,15 +179,16 @@ ul li::marker{
     color: rgb(102, 102, 253);
 }
 .pricing-card ul li{
+    color: rgb(102, 101, 101);
     padding: 5px 0;
 }
 .price{
-    
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     margin: 10px 0 0
 }
 .per-person{
-    color: #a7a7a7;
+    color: #979797;
     margin-bottom: 20px;
 
 }
@@ -223,4 +225,65 @@ hr{
     border-top: 1px solid rgb(82, 82, 82);
     padding: 5px ;
     margin-top: 10px;
+}
+/* sponsor part */
+.sponsors{
+    margin-top: -70px;
+    padding: 100px;
+    background: #ffffff;
+}
+.sponsors h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.subtitle{
+    max-width: 600px;
+    text-align: center;
+    font-size: 15px;
+    color: #7e7d7d;
+    margin: 0 auto 70px;
+}
+.sponsor-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sponsor-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    border-left: 5px solid rgb(52, 52, 245);
+    border-radius: 8px;
+    background: #f7f7f7;
+}
+.sponsor-card img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+.sponsor-text{
+    width: 80%; 
+    text-align: left;
+}
+.sponsor-text h3{
+    color: #131313;
+    margin-bottom: 8px;
+    
+    
+}
+.sponsor-text p{
+    color: #636262;
+    
+}
+.sponsor-card button{
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    border: 1px splod rgb(52, 52, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 6px;
 }
