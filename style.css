@@ -90,12 +90,13 @@ header{
 .speaker-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 35px;
+    gap: 30px;
 }
 .speaker-card{
     border: 1px solid rgb(235, 235, 235);
     border-radius: 10px;
     text-align: left;
+    overflow: hidden;
     
 }
 .speaker-img{
@@ -112,7 +113,7 @@ header{
 }
 .speaker-info .tag{
     color: blue;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
 
 }
@@ -228,8 +229,8 @@ hr{
 }
 /* sponsor part */
 .sponsors{
-    margin-top: -70px;
-    padding: 100px;
+    margin-top: -80px;
+    padding: 80px;
     background: #ffffff;
 }
 .sponsors h2{
@@ -287,3 +288,53 @@ hr{
     cursor: pointer;
     margin-top: 6px;
 }
+/* footer section */
+footer{ 
+    background-color: #3a3a3a;
+    padding: 10px 5%;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30x;
+    padding: 30px;
+}
+.footer-logo img{
+    width: 120px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+
+}
+.footer-social a{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-social img{
+    width: 20px;
+    height: 18px;
+    /* object-fit: contain; */
+
+}
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom p{
+    color: #686868;
+    font-size: 20px;
+    padding: 20px;
+}
+.footer-hr{
+    border: 0;
+    border-top: 1px solid rgb(88, 88, 88);
+    
+}
+/* footer finish */
